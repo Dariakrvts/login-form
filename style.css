@@ -51,6 +51,9 @@ form input[type="password"] {
     color: #555;
 }
 
+.show-password input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
 
 button {
     width: 100%;
@@ -65,4 +68,19 @@ button {
 
 button:hover {
     background: #249a9a;
+}
+
+.links {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.links a {
+    color: #249a9a;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
