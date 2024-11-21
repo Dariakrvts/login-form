@@ -5,7 +5,7 @@
     font-family: Arial, sans-serif;
 }
 
-.background {
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,24 +22,28 @@
     text-align: center;
 }
 
-form label {
+.header {
+    color: #1a8285;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.show-password-label {
     display: block;
-    /* margin-bottom: 0.5rem; */
     color: #555;
     font-weight: 500;
 }
 
-#email,
-#password {
+.input-field {
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     margin-bottom: 1rem;
     border: 1px solid #ddd;
     border-radius: 4px;
     outline: 0;
 }
 
-.show-password {
+.show-password-container {
     display: flex;
     align-items: center;
     margin-bottom: 1.5rem;
@@ -47,12 +51,13 @@ form label {
     color: #555;
 }
 
-#checkbox {
+.show-password {
     margin-right: 0.5rem;
 }
 
-button {
-    width: 100%;
+.submit-btn {
+    width:
+        100%;
     padding: 0.75rem;
     background: #2c7c7b;
     color: white;
@@ -60,9 +65,10 @@ button {
     border-radius: 7px;
     font-weight: bold;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
-button:hover {
+.submit-btn:hover {
     background: #249a9a;
 }
 
